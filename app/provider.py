@@ -3,6 +3,7 @@ LLM Provider abstractions, MockProvider for offline/testing, and GeminiProvider.
 """
 
 import abc
+import asyncio
 import hashlib
 import time
 from typing import Any
@@ -19,7 +20,7 @@ class ProviderError(Exception):
 
 
 class NonRetryableProviderError(ProviderError):
-    """Raised for 400-class errors that must not be retried."""
+    """Raised for 400-class client errors (except 429) that must not be retried."""
     pass
 
 
@@ -92,11 +93,20 @@ class GeminiProvider(BaseProvider):
     """
     Official Google Gemini provider using google-genai SDK.
     Accepts an injected client for testing without real network calls.
+    Includes 30s timeout protection and intelligent error classification.
     """
 
-    def __init__(self, api_key: str | None = None, client: Any | None = None):
+    def __init__(
+        self,
+        api_key: str | None = None,
+        client: Any | None = None,
+        timeout_seconds: float | None = None,
+    ):
         self.api_key = api_key or settings.GEMINI_API_KEY
         self._client = client
+        self.timeout_seconds = (
+            timeout_seconds if timeout_seconds is not None else settings.PROVIDER_TIMEOUT_SECONDS
+        )
 
     def _get_client(self) -> Any:
         if self._client is not None:
@@ -108,17 +118,21 @@ class GeminiProvider(BaseProvider):
         self._client = genai.Client(api_key=self.api_key)
         return self._client
 
+    def _generate_sync(self, model_id: str, prompt: str) -> Any:
+        client = self._get_client()
+        return client.models.generate_content(
+            model=model_id,
+            contents=prompt,
+        )
+
     async def generate(self, model_id: str, prompt: str) -> ProviderResponse:
         start_time = time.perf_counter()
-        client = self._get_client()
 
         try:
-            # google-genai client call
-            # Note: client.models.generate_content is synchronous or asynchronous depending on client
-            # We call in standard try/except with timeout protection
-            response = client.models.generate_content(
-                model=model_id,
-                contents=prompt,
+            # Enforce 30-second timeout asynchronously
+            response = await asyncio.wait_for(
+                asyncio.to_thread(self._generate_sync, model_id, prompt),
+                timeout=self.timeout_seconds,
             )
 
             elapsed_ms = (time.perf_counter() - start_time) * 1000.0
@@ -134,7 +148,8 @@ class GeminiProvider(BaseProvider):
             if tokens_in == 0:
                 tokens_in = max(1, len(prompt) // 4)
             if tokens_out == 0:
-                tokens_out = max(1, len(getattr(response, "text", "") or "") // 4)
+                text_len = len(getattr(response, "text", "") or "")
+                tokens_out = max(1, text_len // 4)
 
             text_output = getattr(response, "text", "") or ""
             return ProviderResponse(
@@ -145,12 +160,22 @@ class GeminiProvider(BaseProvider):
                 model_id=model_id,
             )
 
+        except asyncio.TimeoutError as te:
+            elapsed_ms = (time.perf_counter() - start_time) * 1000.0
+            raise ProviderError(
+                f"Gemini call timed out after {self.timeout_seconds}s for model {model_id}",
+                status_code=504,
+            ) from te
+
+        except (ProviderError, NonRetryableProviderError):
+            raise
+
         except Exception as exc:
             elapsed_ms = (time.perf_counter() - start_time) * 1000.0
             error_msg = str(exc)
             status_code = getattr(exc, "code", None) or getattr(exc, "status_code", None)
 
-            # Check 400-class non-retryable errors except 429 (rate limit)
+            # Check 400-class non-retryable errors except 429 (rate limit / quota)
             if status_code is not None and 400 <= status_code < 500 and status_code != 429:
                 raise NonRetryableProviderError(
                     f"Gemini client error ({status_code}): {error_msg}", status_code=status_code
