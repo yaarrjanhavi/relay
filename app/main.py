@@ -34,6 +34,7 @@ from app.bandit import (
     compute_decay,
     sample_tier,
 )
+from app.benchmark import run_benchmark
 from app.classifier import classify_prompt
 from app.config import (
     compute_cost_usd,
@@ -55,6 +56,7 @@ from app.provider import (
 )
 from app.redis_client import redis_service
 from app.schemas import (
+    BenchmarkResult,
     DeadLetterItem,
     DeadLetterResponse,
     FeedbackRequest,
@@ -507,6 +509,25 @@ async def get_history(limit: int = Query(default=1000, le=5000)) -> HistoryRespo
             )
 
     return HistoryResponse(history=history)
+
+
+@app.post("/v1/benchmark/replay", response_model=BenchmarkResult)
+async def replay_benchmark(
+    mode: str = Query(default="simulated", pattern="^(simulated|real)$"),
+    seeds: int = Query(default=10, ge=1, le=50),
+) -> BenchmarkResult:
+    """
+    Run honest benchmark comparing Router vs Always-Large vs Always-Small vs Random
+    over multiple random seeds on held-out test data.
+    """
+    try:
+        result = run_benchmark(mode=mode, num_seeds=seeds)
+        return result
+    except Exception as exc:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Benchmark execution failed: {exc}",
+        )
 
 
 @app.get("/v1/system/metrics", response_model=SystemMetricsResponse)

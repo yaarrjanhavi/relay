@@ -1,0 +1,4002 @@
+{
+  "eval-001": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-002": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-003": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-004": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-005": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-006": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-007": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-008": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-009": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-010": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-011": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-012": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-013": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-014": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-015": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-016": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-017": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-018": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-019": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-020": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-021": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-022": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-023": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-024": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-025": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-026": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-027": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-028": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-029": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-030": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-031": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-032": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 12,
+      "tokens_out": 24,
+      "cost": 1.08e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 35,
+      "cost": 9.11e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 50,
+      "cost": 0.000515
+    }
+  },
+  "eval-033": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 24,
+      "cost": 1.08e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 35,
+      "cost": 9.11e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 50,
+      "cost": 0.000515
+    }
+  },
+  "eval-034": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-035": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-036": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-037": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-038": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-039": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-040": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-041": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-042": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-043": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-044": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-045": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-046": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-047": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-048": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-049": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-050": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-051": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 24,
+      "cost": 1.08e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 35,
+      "cost": 9.11e-05
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 12,
+      "tokens_out": 50,
+      "cost": 0.000515
+    }
+  },
+  "eval-052": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-053": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-054": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-055": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-056": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-057": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 26,
+      "cost": 1.17e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 36,
+      "cost": 9.39e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 50,
+      "cost": 0.00051625
+    }
+  },
+  "eval-058": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 12,
+      "tokens_out": 24,
+      "cost": 1.08e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 35,
+      "cost": 9.11e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 50,
+      "cost": 0.000515
+    }
+  },
+  "eval-059": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-060": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-061": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-062": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-063": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-064": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-065": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-066": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-067": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-068": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-069": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-070": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-071": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 13,
+      "tokens_out": 26,
+      "cost": 1.17e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 36,
+      "cost": 9.39e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 50,
+      "cost": 0.00051625
+    }
+  },
+  "eval-072": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-073": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-074": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-075": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-076": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-077": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 26,
+      "cost": 1.17e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 36,
+      "cost": 9.39e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 50,
+      "cost": 0.00051625
+    }
+  },
+  "eval-078": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-079": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 10,
+      "tokens_out": 20,
+      "cost": 9e-06
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 10,
+      "tokens_out": 35,
+      "cost": 9.05e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 10,
+      "tokens_out": 50,
+      "cost": 0.0005125
+    }
+  },
+  "eval-080": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-081": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-082": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-083": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-084": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-085": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 11,
+      "tokens_out": 22,
+      "cost": 9.9e-06
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 11,
+      "tokens_out": 35,
+      "cost": 9.08e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 11,
+      "tokens_out": 50,
+      "cost": 0.00051375
+    }
+  },
+  "eval-086": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-087": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-088": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 26,
+      "cost": 1.17e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 36,
+      "cost": 9.39e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 50,
+      "cost": 0.00051625
+    }
+  },
+  "eval-089": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-090": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-091": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-092": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-093": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-094": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-095": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-096": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-097": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-098": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-099": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-100": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-101": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-102": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-103": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-104": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-105": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-106": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-107": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-108": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-109": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-110": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-111": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-112": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-113": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-114": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-115": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-116": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-117": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-118": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-119": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-120": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-121": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-122": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-123": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-124": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-125": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-126": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-127": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-128": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-129": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-130": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-131": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 10,
+      "tokens_out": 20,
+      "cost": 9e-06
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 10,
+      "tokens_out": 35,
+      "cost": 9.05e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 10,
+      "tokens_out": 50,
+      "cost": 0.0005125
+    }
+  },
+  "eval-132": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 24,
+      "cost": 1.08e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 35,
+      "cost": 9.11e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 12,
+      "tokens_out": 50,
+      "cost": 0.000515
+    }
+  },
+  "eval-133": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-134": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-135": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-136": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-137": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 26,
+      "cost": 1.17e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 13,
+      "tokens_out": 36,
+      "cost": 9.39e-05
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 13,
+      "tokens_out": 50,
+      "cost": 0.00051625
+    }
+  },
+  "eval-138": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-139": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-140": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-141": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-142": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-143": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-144": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-145": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-146": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-147": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-148": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-149": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-150": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-151": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-152": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-153": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-154": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-155": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-156": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-157": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-158": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-159": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-160": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-161": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-162": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-163": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-164": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-165": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 30,
+      "cost": 1.35e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 15,
+      "tokens_out": 42,
+      "cost": 0.0001095
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 15,
+      "tokens_out": 52,
+      "cost": 0.00053875
+    }
+  },
+  "eval-166": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-167": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-168": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 28,
+      "cost": 1.26e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 39,
+      "cost": 0.0001017
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 14,
+      "tokens_out": 50,
+      "cost": 0.0005175
+    }
+  },
+  "eval-169": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-170": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-171": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-172": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 34,
+      "cost": 1.53e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 17,
+      "tokens_out": 47,
+      "cost": 0.0001226
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 17,
+      "tokens_out": 59,
+      "cost": 0.00061125
+    }
+  },
+  "eval-173": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-174": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 19,
+      "tokens_out": 38,
+      "cost": 1.71e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 53,
+      "cost": 0.0001382
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 19,
+      "tokens_out": 66,
+      "cost": 0.00068375
+    }
+  },
+  "eval-175": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 32,
+      "cost": 1.44e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 44,
+      "cost": 0.0001148
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 16,
+      "tokens_out": 56,
+      "cost": 0.00058
+    }
+  },
+  "eval-176": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 36,
+      "cost": 1.62e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 18,
+      "tokens_out": 50,
+      "cost": 0.0001304
+    },
+    "large": {
+      "quality": 0,
+      "tokens_in": 18,
+      "tokens_out": 63,
+      "cost": 0.0006525
+    }
+  },
+  "eval-177": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-178": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-179": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-180": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-181": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-182": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-183": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-184": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-185": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-186": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-187": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-188": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 0,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-189": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 40,
+      "cost": 1.8e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 56,
+      "cost": 0.000146
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 20,
+      "tokens_out": 70,
+      "cost": 0.000725
+    }
+  },
+  "eval-190": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-191": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-192": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-193": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 48,
+      "cost": 2.16e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 67,
+      "cost": 0.0001747
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 84,
+      "cost": 0.00087
+    }
+  },
+  "eval-194": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 44,
+      "cost": 1.98e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 61,
+      "cost": 0.0001591
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 22,
+      "tokens_out": 77,
+      "cost": 0.0007975
+    }
+  },
+  "eval-195": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-196": {
+    "small": {
+      "quality": 0,
+      "tokens_in": 24,
+      "tokens_out": 48,
+      "cost": 2.16e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 67,
+      "cost": 0.0001747
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 84,
+      "cost": 0.00087
+    }
+  },
+  "eval-197": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 42,
+      "cost": 1.89e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 58,
+      "cost": 0.0001513
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 21,
+      "tokens_out": 73,
+      "cost": 0.00075625
+    }
+  },
+  "eval-198": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-199": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 46,
+      "cost": 2.07e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 64,
+      "cost": 0.0001669
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 23,
+      "tokens_out": 80,
+      "cost": 0.00082875
+    }
+  },
+  "eval-200": {
+    "small": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 48,
+      "cost": 2.16e-05
+    },
+    "medium": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 67,
+      "cost": 0.0001747
+    },
+    "large": {
+      "quality": 1,
+      "tokens_in": 24,
+      "tokens_out": 84,
+      "cost": 0.00087
+    }
+  }
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "eval-001",
+    "prompt": "Write a Python function to check if a binary tree is symmetric.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-002",
+    "prompt": "Implement an LRU Cache in Python using OrderedDict or doubly linked list.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-003",
+    "prompt": "How do I implement binary search in C++ using std::lower_bound?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-004",
+    "prompt": "Write a SQL query using window function DENSE_RANK() for top salaries.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-005",
+    "prompt": "Explain how Python's asyncio event loop handles I/O multiplexing.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-006",
+    "prompt": "Write a Dockerfile for a Next.js application with standalone output.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-007",
+    "prompt": "Implement Dijkstra's shortest path algorithm in Python with heapq.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-008",
+    "prompt": "How do I fix: fatal: refusing to merge unrelated histories in git?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-009",
+    "prompt": "Write a TypeScript type that converts snake_case keys to camelCase.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-010",
+    "prompt": "Implement a thread-safe singleton pattern in Go with sync.Once.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-011",
+    "prompt": "Write a regular expression to validate RFC 5322 email addresses.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-012",
+    "prompt": "Explain the difference between TCP Reno and BBR congestion control.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-013",
+    "prompt": "Write a Rust function that uses lifetime annotations to return longest string.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-014",
+    "prompt": "How do I configure Nginx to proxy websockets with Upgrade headers?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-015",
+    "prompt": "Implement quickselect in Python to find the k-th smallest element in O(n).",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-016",
+    "prompt": "Write a bash script to monitor memory usage and alert when above 90%.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-017",
+    "prompt": "Explain the mechanics of Copy-on-Write (CoW) in virtual memory fork().",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-018",
+    "prompt": "Write a recursive descent parser for simple arithmetic expressions.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-019",
+    "prompt": "How do I implement rate limiting in FastAPI with Redis Lua script?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-020",
+    "prompt": "Write a SQL migration to add a composite index concurrently in Postgres.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-021",
+    "prompt": "Implement a bloom filter in Python with murmur3 hashing.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-022",
+    "prompt": "How to prevent SQL injection in raw SQL parameterized queries?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-023",
+    "prompt": "Explain the Raft consensus algorithm leader election and log replication.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-024",
+    "prompt": "Write a Terraform configuration for an auto-scaling ECS Fargate service.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-025",
+    "prompt": "Implement the Aho-Corasick string matching algorithm in Python.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-026",
+    "prompt": "How do I profile Python CPU bottlenecks using cProfile and snakeviz?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-027",
+    "prompt": "Write a Kubernetes StatefulSet manifest for a 3-node Redis cluster.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-028",
+    "prompt": "Implement a custom memory allocator in C using sbrk/mmap.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-029",
+    "prompt": "Write a Python decorator that retries a function with exponential backoff.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-030",
+    "prompt": "Explain how garbage collection works in V8 (Scavenge and Mark-Sweep).",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-031",
+    "prompt": "Write a GraphQL schema and resolver for a hierarchical comments tree.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-032",
+    "prompt": "Implement a sliding window rate limiter in Python.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-033",
+    "prompt": "How do I handle backpressure in Node.js streams?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-034",
+    "prompt": "Write a PyTorch training loop with mixed precision and gradient clipping.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-035",
+    "prompt": "Explain the difference between optimistic and pessimistic database concurrency.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-036",
+    "prompt": "Implement a red-black tree insertion in Python with rotations.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-037",
+    "prompt": "Write an Ansible playbook to harden SSH and install UFW firewall.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-038",
+    "prompt": "How do I debug a segmentation fault using gdb and core dumps?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-039",
+    "prompt": "Implement a lock-free queue in C++ using atomic compare_exchange.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-040",
+    "prompt": "Write a Python script to parse and stream huge 10GB JSON files with ijson.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-041",
+    "prompt": "Explain the internal architecture of Apache Kafka partition offsets.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-042",
+    "prompt": "Implement an inverted index in Python for boolean full-text search.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-043",
+    "prompt": "How do I set up mutual TLS (mTLS) authentication in Envoy proxy?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-044",
+    "prompt": "Write a Cython extension module to accelerate matrix multiplication.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-045",
+    "prompt": "Explain the differences between B-Tree and LSM-Tree storage engines.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-046",
+    "prompt": "Write a Prometheus custom exporter in Python for system metrics.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-047",
+    "prompt": "Implement topological sort on a directed acyclic graph (DAG).",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-048",
+    "prompt": "How do I optimize Docker image build layers for multi-stage builds?",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-049",
+    "prompt": "Write a Python script to decode protobuf messages without .proto files.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-050",
+    "prompt": "Explain how zero-copy networking works using sendfile() in Linux.",
+    "category": "code",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-051",
+    "prompt": "Solve the quadratic equation 4x^2 - 12x + 9 = 0.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-052",
+    "prompt": "Find the determinant of the 3x3 matrix [[1, 2, 3], [0, 4, 5], [1, 0, 6]].",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-053",
+    "prompt": "Calculate the definite integral of x^2 * sin(x) dx from 0 to pi.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-054",
+    "prompt": "Find all real solutions to the equation 2^(2x) - 5 * 2^x + 4 = 0.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-055",
+    "prompt": "Compute the limit as x approaches 0 of (e^x - 1 - x) / x^2.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-056",
+    "prompt": "What is the probability of getting exactly 3 heads in 5 coin tosses?",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-057",
+    "prompt": "Find the eigenvalues of the matrix [[3, 1], [0, 2]].",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-058",
+    "prompt": "Solve the differential equation dy/dx + 3y = 6x.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-059",
+    "prompt": "Calculate the gradient and Hessian of f(x, y) = x^2 * y - y^3.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-060",
+    "prompt": "Prove that the sum of angles in a Euclidean triangle is 180 degrees.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-061",
+    "prompt": "Find the Taylor series of f(x) = 1 / (1 - x) centered at 0.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-062",
+    "prompt": "Compute the cross product of vectors u = (1, 3, -2) and v = (2, -1, 4).",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-063",
+    "prompt": "Evaluate the line integral of F = (y, -x) along the circle x^2 + y^2 = 1.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-064",
+    "prompt": "What is the order of element 5 in the multiplicative group Z_17*?",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-065",
+    "prompt": "Find the maximum value of f(x, y) = xy subject to x + 2y = 10.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-066",
+    "prompt": "Calculate the sum of the infinite geometric series 3/4 + 3/16 + 3/64 + ...",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-067",
+    "prompt": "Determine if the series sum from 1 to inf of (-1)^n / sqrt(n) converges.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-068",
+    "prompt": "Find the arc length of the parabola y = x^2 from x = 0 to x = 1.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-069",
+    "prompt": "Calculate the conditional probability P(A|B) if P(A)=0.3, P(B)=0.4, P(A and B)=0.12.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-070",
+    "prompt": "Solve the system of equations: 3x + 2y - z = 1, 2x - 2y + 4z = -2, -x + y/2 - z = 0.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-071",
+    "prompt": "Find the inverse of the 2x2 matrix [[4, 7], [2, 6]].",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-072",
+    "prompt": "Evaluate the double integral of (x + y) dy dx over the unit square [0,1]x[0,1].",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-073",
+    "prompt": "What is the characteristic equation of the recurrence a_n = 5a_(n-1) - 6a_(n-2)?",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-074",
+    "prompt": "Compute the variance of a Poisson random variable with parameter lambda = 4.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-075",
+    "prompt": "Find the radius of convergence of the power series sum (n! * x^n) / n^n.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-076",
+    "prompt": "Calculate the divergence and curl of vector field F = (x^2*y, y^2*z, z^2*x).",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-077",
+    "prompt": "Prove that any subgroup of an abelian group is normal.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-078",
+    "prompt": "Find the stationary distribution of a 2-state Markov chain with transition P.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-079",
+    "prompt": "Evaluate the integral of 1 / (x^2 + 4) dx.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-080",
+    "prompt": "What is the Euler-Mascheroni constant gamma and where does it arise?",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-081",
+    "prompt": "Compute the coefficient of x^5 in the polynomial expansion of (2x - 3)^8.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-082",
+    "prompt": "Find the distance from the point (1, 2, 3) to the plane 2x - y + 2z = 4.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-083",
+    "prompt": "Explain the difference between Riemann and Lebesgue integration.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-084",
+    "prompt": "Evaluate the Fourier transform of a Gaussian function f(x) = e^(-a*x^2).",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-085",
+    "prompt": "Solve the diophantine equation 15x + 21y = 6.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-086",
+    "prompt": "Find the volume of the solid generated by revolving y = sqrt(x) from 0 to 4 around the x-axis.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-087",
+    "prompt": "Determine whether the vectors (1, 0, 1), (1, 1, 0), and (0, 1, 1) span R^3.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-088",
+    "prompt": "State and prove Fermat's Little Theorem for prime p.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-089",
+    "prompt": "Calculate the residue of f(z) = 1 / (z^2 * (z - 1)) at z = 0 and z = 1.",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-090",
+    "prompt": "What is the expected number of draws with replacement to collect 6 distinct coupons?",
+    "category": "math",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-091",
+    "prompt": "Summarize the key events and historical significance of the Magna Carta.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-092",
+    "prompt": "Provide a concise summary of the CRISPR-Cas9 gene editing mechanism.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-093",
+    "prompt": "Summarize the core themes and narrative structure of Homer's Odyssey.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-094",
+    "prompt": "Give a high-level overview of the causes and outcome of the Peloponnesian War.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-095",
+    "prompt": "Summarize the three laws of thermodynamics in plain language.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-096",
+    "prompt": "Provide an executive summary of the Kyoto Protocol and Paris Agreement goals.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-097",
+    "prompt": "Summarize the main economic theories of John Maynard Keynes vs Milton Friedman.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-098",
+    "prompt": "What are the key takeaways from the discovery of cosmic microwave background radiation?",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-099",
+    "prompt": "Summarize the biological process of photosynthesis from light reaction to Calvin cycle.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-100",
+    "prompt": "Provide a 3-bullet synopsis of the plot of Hamlet by William Shakespeare.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-101",
+    "prompt": "Summarize the primary functions of the International Monetary Fund and World Bank.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-102",
+    "prompt": "Give a brief overview of the continental drift theory and plate tectonics.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-103",
+    "prompt": "Summarize the debate over artificial intelligence alignment and instrumental convergence.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-104",
+    "prompt": "Provide an overview of the stages of cellular mitosis and meiosis.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-105",
+    "prompt": "Summarize the architectural innovations of the Gothic cathedrals in medieval Europe.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-106",
+    "prompt": "Give an executive summary of the principles of circular economy vs linear economy.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-107",
+    "prompt": "Summarize the history of space exploration from Sputnik to the Artemis program.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-108",
+    "prompt": "Explain the core takeaways of Adam Smith's The Wealth of Nations.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-109",
+    "prompt": "Summarize the physiological effects of chronic stress on the human nervous system.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-110",
+    "prompt": "Provide a concise summary of the Bretton Woods conference and its currency system.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-111",
+    "prompt": "Summarize the primary causes of the French Revolution in 1789.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-112",
+    "prompt": "What are the main arguments for and against nuclear energy in the clean energy transition?",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-113",
+    "prompt": "Summarize the theory of plate tectonics and how earthquakes occur along fault lines.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-114",
+    "prompt": "Provide an overview of the scientific consensus on the extinction of the dinosaurs.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-115",
+    "prompt": "Summarize the major differences between common law and civil law legal traditions.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-116",
+    "prompt": "Give an overview of the Industrial Revolution's impact on urbanization in Britain.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-117",
+    "prompt": "Summarize the primary causes and consequences of the Dust Bowl in the 1930s.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-118",
+    "prompt": "Provide a concise summary of the history and purpose of the United Nations Security Council.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-119",
+    "prompt": "Summarize the discovery and medical impact of penicillin by Alexander Fleming.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-120",
+    "prompt": "Give a brief synopsis of the Great Depression and the New Deal programs.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-121",
+    "prompt": "Summarize the central philosophy of Stoicism as taught by Marcus Aurelius and Epictetus.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-122",
+    "prompt": "Provide an overview of the Apollo 11 moon landing mission and its scientific goals.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-123",
+    "prompt": "Summarize the key milestones in the development of quantum mechanics.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-124",
+    "prompt": "Give an executive summary of the benefits and challenges of renewable microgrids.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-125",
+    "prompt": "Summarize the cultural and artistic flourishing of the Harlem Renaissance.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-126",
+    "prompt": "What are the primary factors driving global biodiversity loss according to the WWF?",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-127",
+    "prompt": "Summarize the main findings of Gregor Mendel's pea plant inheritance experiments.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-128",
+    "prompt": "Provide a concise summary of the Marshall Plan and post-WWII European reconstruction.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-129",
+    "prompt": "Summarize the history and principles of the open-source software movement.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-130",
+    "prompt": "Give an overview of the origins and geopolitical effects of the Cold War space race.",
+    "category": "summarize",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-131",
+    "prompt": "Hello! How are you doing today?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-132",
+    "prompt": "Can you tell me a lighthearted and witty dad joke?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-133",
+    "prompt": "What is a fun and creative hobby to pick up during the winter?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-134",
+    "prompt": "Hi! If you could have dinner with any historical figure, who would it be?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-135",
+    "prompt": "What are some good tips for staying productive while working from home?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-136",
+    "prompt": "Could you help me brainstorm five catchy names for a cozy neighborhood bakery?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-137",
+    "prompt": "What is your favorite paradox in philosophy or science?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-138",
+    "prompt": "Tell me a charming short story about a stray cat who becomes mayor of a small town.",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-139",
+    "prompt": "What are some simple ways to make a living room feel warmer and more inviting?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-140",
+    "prompt": "Good evening! What are some relaxing instrumental music genres to unwind to?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-141",
+    "prompt": "Can you share an interesting and surprising fact about marine biology?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-142",
+    "prompt": "What are some fun games to play on a long road trip with friends?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-143",
+    "prompt": "Hi there! How can I make my morning coffee taste richer and smoother?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-144",
+    "prompt": "What are some classic comedy movies that still hold up really well today?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-145",
+    "prompt": "Can you write a polite and enthusiastic email RSVP to a colleague's wedding?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-146",
+    "prompt": "What is the history behind the phrase 'spilling the beans'?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-147",
+    "prompt": "Give me three creative prompt ideas for creative fictional writing.",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-148",
+    "prompt": "What are some beginner-friendly indoor house plants that need minimal sunlight?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-149",
+    "prompt": "Hi! Can you recommend a quick 20-minute vegetarian lunch recipe?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-150",
+    "prompt": "What do you find most fascinating about human curiosity and storytelling?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-151",
+    "prompt": "Can you tell me a whimsical riddle with a clever punchline?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-152",
+    "prompt": "What are some thoughtful housewarming gift ideas under $30?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-153",
+    "prompt": "Share an inspiring quote about resilience and perseverance.",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-154",
+    "prompt": "How can someone practice active listening in everyday conversations?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-155",
+    "prompt": "What are some good habits for better sleep hygiene and evening wind-down?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-156",
+    "prompt": "Can you help me plan a relaxing weekend itinerary for a solo city trip?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-157",
+    "prompt": "What are some fun icebreaker questions for a virtual team meeting?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-158",
+    "prompt": "Tell me a short poem about autumn leaves and crisp morning air.",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-159",
+    "prompt": "What is the difference between gelato, ice cream, and sorbet?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-160",
+    "prompt": "Hi! Do you have any suggestions for organizing a cluttered bookshelf?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-161",
+    "prompt": "What are some classic board games that require deep strategy rather than luck?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-162",
+    "prompt": "Can you suggest some fun DIY craft projects using recycled glass jars?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-163",
+    "prompt": "What are some creative ways to celebrate a friend's milestone birthday?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-164",
+    "prompt": "Good morning! What are three small habits that can brighten someone's day?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-165",
+    "prompt": "Tell me an interesting folklore legend from around the world.",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-166",
+    "prompt": "What are some healthy and crunchy snack alternatives to potato chips?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-167",
+    "prompt": "Can you give me some gentle tips for overcoming procrastination on weekends?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-168",
+    "prompt": "What makes origami such a timeless and meditative art form?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-169",
+    "prompt": "Can you suggest four thought-provoking discussion topics for a book club?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-170",
+    "prompt": "Hi! What is an interesting tradition or festival celebrated in Latin America?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-171",
+    "prompt": "Tell me a warm and cozy bedtime story about stargazing on a quiet mountain.",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-172",
+    "prompt": "What are some fun outdoor activities to enjoy during the spring season?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-173",
+    "prompt": "How can someone cultivate a gratitude journaling practice without feeling repetitive?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-174",
+    "prompt": "Can you write a short thank-you note to a mentor who gave great career advice?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-175",
+    "prompt": "What are some fun conversation starters for meeting new neighbors?",
+    "category": "chat",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-176",
+    "prompt": "What is the exact pediatric dosage for liquid amoxicillin for a 15kg child?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-177",
+    "prompt": "My business partner breached our operating agreement, what legal remedies can I claim?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-178",
+    "prompt": "How should I structure my stock portfolio to minimize capital gains taxes on 401k withdrawals?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-179",
+    "prompt": "Patient presents with sudden severe headache, stiff neck, and photophobia. What diagnosis?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-180",
+    "prompt": "Review this NDA contract clause for indemnity liabilities and arbitration covenants.",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-181",
+    "prompt": "What are the contraindications between SSRIs and tramadol regarding serotonin syndrome?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-182",
+    "prompt": "How do I file an IRS tax appeal for a disputed audit assessment on business deductions?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-183",
+    "prompt": "What is the recommended chemotherapy regimen for stage IIB invasive ductal breast carcinoma?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-184",
+    "prompt": "Can an employer enforce a nationwide non-compete clause under current federal FTC guidelines?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-185",
+    "prompt": "Patient in the ICU has acute hyperkalemia of 6.8 mEq/L with ECG changes, what is the protocol?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-186",
+    "prompt": "How are municipal bond yields taxed at state vs federal levels for high-net-worth investors?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-187",
+    "prompt": "What legal defenses exist in a patent infringement lawsuit under 35 U.S.C. 102 prior art?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-188",
+    "prompt": "What is the starting dose and titration schedule for levothyroxine in elderly cardiac patients?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-189",
+    "prompt": "Can a minority shareholder file a derivative lawsuit for breach of fiduciary duty?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-190",
+    "prompt": "How do tax loss harvesting rules apply to cryptocurrency wash sales under IRS regulations?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-191",
+    "prompt": "What is the emergency triage procedure for suspected acute stroke within the tPA window?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-192",
+    "prompt": "What are the indemnification obligations of a tenant in a triple-net (NNN) commercial lease?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-193",
+    "prompt": "Patient with severe asthma exacerbation is refractory to albuterol, what is next medication dosage?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-194",
+    "prompt": "How to structure a qualified opportunity zone (QOZ) investment for capital gains deferral?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-195",
+    "prompt": "What is the legal standard of proof for defamation against a public figure in tort law?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-196",
+    "prompt": "What is the therapeutic target INR for a mechanical mitral valve replacement patient on warfarin?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-197",
+    "prompt": "Can an employer be held strictly liable for supervisor quid pro quo sexual harassment?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-198",
+    "prompt": "How should a fiduciary manage estate probate distribution when testamentary trusts conflict?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-199",
+    "prompt": "What are the diagnostic criteria for diabetic ketoacidosis (DKA) vs HHS in emergency medicine?",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  },
+  {
+    "id": "eval-200",
+    "prompt": "Review this real estate purchase contract for liquidated damages and financing contingency clauses.",
+    "category": "high_stakes",
+    "source": "Relay Benchmark Suite (adapted from HumanEval, GSM8K, CNN/DM, UltraChat, MedLegal)"
+  }
+]
