@@ -101,7 +101,14 @@ def init_db(db_path: str | None = None) -> None:
                 created_at REAL NOT NULL
             );
 
+            CREATE TABLE IF NOT EXISTS idempotency_keys (
+                key TEXT PRIMARY KEY,
+                response_json TEXT NOT NULL,
+                created_at REAL NOT NULL
+            );
+
             CREATE INDEX IF NOT EXISTS idx_requests_created_at ON requests(created_at);
+            CREATE INDEX IF NOT EXISTS idx_idempotency_created ON idempotency_keys(created_at);
             CREATE INDEX IF NOT EXISTS idx_history_ts ON posterior_history(ts);
             CREATE INDEX IF NOT EXISTS idx_outbox_status_next ON outbox(status, next_attempt_at);
             """
