@@ -1,0 +1,60 @@
+version: "3.8"
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: relay-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: relay-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - REDIS_URL=redis://redis:6379/0
+      - ROUTER_DB=/app/data/relay.db
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL_SMALL=${GEMINI_MODEL_SMALL:-gemini-2.5-flash-lite}
+      - GEMINI_MODEL_MEDIUM=${GEMINI_MODEL_MEDIUM:-gemini-2.5-flash}
+      - GEMINI_MODEL_LARGE=${GEMINI_MODEL_LARGE:-gemini-2.5-pro}
+      - GEMINI_MODEL_EMBEDDING=${GEMINI_MODEL_EMBEDDING:-gemini-embedding-001}
+      - LAMBDA=${LAMBDA:-0.25}
+      - JUDGE_SAMPLE_RATE=${JUDGE_SAMPLE_RATE:-0.0}
+    volumes:
+      - relay_data:/app/data
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: relay-web
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+      - NODE_ENV=production
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  redis_data:
+  relay_data:
