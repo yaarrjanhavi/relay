@@ -259,3 +259,28 @@ npm run dev
 ```
 
 Visit [http://localhost:3000](http://localhost:3000) to open the interactive Relay playground.
+
+---
+
+### Option C: Production Deployment (Vercel Frontend + Railway/Render Backend)
+
+#### 1. Deploy Backend (Railway / Render / Fly.io)
+Deploy the root repository using the included `Dockerfile` and `railway.json` or `render.yaml`:
+- **Railway:** Connect this repo, add a Redis plugin, and set `GEMINI_API_KEY`.
+- **Render:** Use the Blueprint (`render.yaml`) which automatically sets up Redis and the Docker web service with persistent disk.
+- Note your live API URL (e.g. `https://relay-api.up.railway.app`).
+
+#### 2. Deploy Frontend to Vercel
+1. Log in to Vercel via CLI:
+```bash
+vercel login
+```
+2. Deploy the project:
+```bash
+vercel --prod
+```
+3. Set the environment variable in your Vercel Dashboard (or via CLI):
+```bash
+vercel env add NEXT_PUBLIC_API_URL
+# Enter your hosted backend URL: https://relay-api.up.railway.app
+```

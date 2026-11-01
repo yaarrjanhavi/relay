@@ -1,0 +1,28 @@
+services:
+  - type: redis
+    name: relay-redis
+    ipAllowList: []
+    plan: free
+
+  - type: web
+    name: relay-api
+    runtime: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: relay-redis
+          property: connectionString
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: LAMBDA
+        value: "0.25"
+      - key: ROUTER_DB
+        value: "/var/data/relay.db"
+    disk:
+      name: relay-data
+      mountPath: /var/data
+      sizeGB: 1
