@@ -73,24 +73,25 @@ from app.schemas import (
 logger = setup_logging()
 
 # Background outbox worker task
-_outbox_stop_event = asyncio.Event()
+_outbox_stop_event: asyncio.Event | None = None
 _outbox_task: asyncio.Task | None = None
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     """Application lifespan: initialize schema, start outbox worker."""
-    global _outbox_task
+    global _outbox_task, _outbox_stop_event
     init_db()
 
-    _outbox_stop_event.clear()
+    _outbox_stop_event = asyncio.Event()
     _outbox_task = asyncio.create_task(
         outbox_worker_loop(_outbox_stop_event, interval_seconds=0.25)
     )
 
     yield
 
-    _outbox_stop_event.set()
+    if _outbox_stop_event is not None:
+        _outbox_stop_event.set()
     if _outbox_task is not None:
         try:
             await asyncio.wait_for(_outbox_task, timeout=2.0)

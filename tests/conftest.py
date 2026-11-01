@@ -11,7 +11,7 @@ from fastapi.testclient import TestClient
 from app.config import settings
 from app.database import init_db
 from app.main import app
-from app.provider import MockProvider
+from app.provider import MockProvider, get_provider
 
 
 @pytest.fixture(autouse=True)
@@ -20,6 +20,7 @@ def test_db_path(monkeypatch):
     fd, path = tempfile.mkstemp(suffix=".db")
     os.close(fd)
     monkeypatch.setattr(settings, "ROUTER_DB", path)
+    monkeypatch.setattr(settings, "GEMINI_API_KEY", "")
     init_db(path)
     yield path
     try:
@@ -31,8 +32,11 @@ def test_db_path(monkeypatch):
 
 @pytest.fixture
 def client(test_db_path):
-    """FastAPI TestClient with isolated DB."""
-    return TestClient(app)
+    """FastAPI TestClient with isolated DB and MockProvider."""
+    app.dependency_overrides[get_provider] = lambda: MockProvider()
+    with TestClient(app) as test_client:
+        yield test_client
+    app.dependency_overrides.clear()
 
 
 @pytest.fixture

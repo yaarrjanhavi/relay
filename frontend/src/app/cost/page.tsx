@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { fetchMetrics, SystemMetricsResponse } from "@/lib/api";
-import { DollarSign, TrendingDown, PiggyBank, RefreshCw } from "lucide-react";
 import {
   ResponsiveContainer,
   BarChart,
@@ -12,6 +11,7 @@ import {
   Tooltip,
   CartesianGrid,
   Cell,
+  LabelList,
 } from "recharts";
 
 export default function CostPage() {
@@ -24,7 +24,7 @@ export default function CostPage() {
       const data = await fetchMetrics();
       setMetrics(data);
     } catch (err) {
-      console.error(err);
+      console.error("Failed to load metrics:", err);
     } finally {
       setLoading(false);
     }
@@ -43,108 +43,209 @@ export default function CostPage() {
       : 0.0;
 
   const comparisonData = [
-    { name: "Relay (Actual)", cost: Number(totalActual.toFixed(6)), fill: "#3DFF6B" },
-    { name: "Always Large (Counterfactual)", cost: Number(alwaysLargeCounterfactual.toFixed(6)), fill: "#A855F7" },
+    {
+      name: "Relay (Actual)",
+      cost: Number(totalActual.toFixed(6)),
+      label: `$${totalActual.toFixed(5)}`,
+      fill: "#35F28A",
+    },
+    {
+      name: "Always Large",
+      cost: Number(alwaysLargeCounterfactual.toFixed(6)),
+      label: `$${alwaysLargeCounterfactual.toFixed(5)}`,
+      fill: "#B388FF",
+    },
   ];
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
+    <div className="space-y-8">
+      {/* Top Controls */}
+      <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
         <div>
-          <h1 className="text-4xl sm:text-5xl font-heading text-white tracking-wide">
-            Cost & Counterfactual Savings
+          <h1 className="font-heading text-4xl sm:text-6xl text-black uppercase tracking-tight leading-none">
+            WHERE THE MONEY WENT
           </h1>
-          <p className="text-gray-400 text-sm mt-1">
+          <p className="font-mono text-sm sm:text-base text-black mt-2 font-medium">
             Realized LLM cost efficiency comparing Relay routing decisions against always-large baseline.
           </p>
         </div>
+
         <button
           onClick={loadMetrics}
           disabled={loading}
-          className="flex items-center space-x-2 px-3 py-1.5 bg-[#1A1A1A] border border-[#262626] rounded-lg text-xs font-mono text-gray-300 hover:text-white hover:border-[#3DFF6B] transition-all"
+          aria-label="Refresh cost metrics"
+          className="self-start md:self-auto px-5 py-3 bg-white text-black font-heading text-sm uppercase border-[3px] border-black brutalist-shadow-button brutalist-button-press transition-all flex items-center space-x-2 cursor-pointer disabled:opacity-50"
         >
-          <RefreshCw className={`w-3.5 h-3.5 ${loading ? "animate-spin" : ""}`} />
-          <span>Refresh</span>
+          {loading ? (
+            <div className="brutalist-spinner" />
+          ) : (
+            <span className="w-3 h-3 bg-black inline-block" />
+          )}
+          <span>{loading ? "REFRESHING..." : "REFRESH"}</span>
         </button>
       </div>
 
-      {/* Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="bg-[#1A1A1A] border border-[#262626] rounded-xl p-5">
-          <div className="flex items-center justify-between text-gray-400 mb-2">
-            <span className="text-xs uppercase font-mono">Actual Relay Spend</span>
-            <DollarSign className="w-4 h-4 text-[#3DFF6B]" />
+      {/* Top Metric Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Actual Relay Spend */}
+        <div className="bg-white border-[3px] border-black brutalist-shadow flex flex-col justify-between overflow-hidden">
+          <div className="h-3 w-full bg-[#35F28A] border-b-[3px] border-black" />
+          <div className="p-5 flex-1 flex flex-col justify-between">
+            <span className="font-mono text-xs uppercase font-bold text-black tracking-wider block">
+              ACTUAL RELAY SPEND
+            </span>
+            <div className="my-3">
+              <span className="font-heading text-3xl sm:text-4xl text-black block truncate">
+                ${totalActual.toFixed(5)}
+              </span>
+            </div>
+            <span className="font-mono text-xs text-[#333333] font-medium block">
+              Across {metrics?.total_requests || 0} routed requests
+            </span>
           </div>
-          <div className="text-2xl font-bold font-mono text-white">
-            ${totalActual.toFixed(5)}
-          </div>
-          <span className="text-[11px] text-gray-500 font-mono mt-1 block">
-            Across {metrics?.total_requests || 0} routed requests
-          </span>
         </div>
 
-        <div className="bg-[#1A1A1A] border border-[#262626] rounded-xl p-5">
-          <div className="flex items-center justify-between text-gray-400 mb-2">
-            <span className="text-xs uppercase font-mono">Always Large Spend</span>
-            <DollarSign className="w-4 h-4 text-[#A855F7]" />
+        {/* Always Large Spend */}
+        <div className="bg-white border-[3px] border-black brutalist-shadow flex flex-col justify-between overflow-hidden">
+          <div className="h-3 w-full bg-[#B388FF] border-b-[3px] border-black" />
+          <div className="p-5 flex-1 flex flex-col justify-between">
+            <span className="font-mono text-xs uppercase font-bold text-black tracking-wider block">
+              ALWAYS LARGE SPEND
+            </span>
+            <div className="my-3">
+              <span className="font-heading text-3xl sm:text-4xl text-black block truncate">
+                ${alwaysLargeCounterfactual.toFixed(5)}
+              </span>
+            </div>
+            <span className="font-mono text-xs text-[#333333] font-medium block">
+              Exclusively Gemini 2.5 Pro
+            </span>
           </div>
-          <div className="text-2xl font-bold font-mono text-white">
-            ${alwaysLargeCounterfactual.toFixed(5)}
-          </div>
-          <span className="text-[11px] text-gray-500 font-mono mt-1 block">
-            If routed exclusively to Gemini 2.5 Pro
-          </span>
         </div>
 
-        <div className="bg-[#1A1A1A] border border-[#262626] rounded-xl p-5">
-          <div className="flex items-center justify-between text-gray-400 mb-2">
-            <span className="text-xs uppercase font-mono">Net Dollar Savings</span>
-            <PiggyBank className="w-4 h-4 text-[#3DFF6B]" />
+        {/* Net Dollar Savings */}
+        <div className="bg-white border-[3px] border-black brutalist-shadow flex flex-col justify-between overflow-hidden">
+          <div className="h-3 w-full bg-[#FF4FA3] border-b-[3px] border-black" />
+          <div className="p-5 flex-1 flex flex-col justify-between">
+            <span className="font-mono text-xs uppercase font-bold text-black tracking-wider block">
+              NET DOLLAR SAVINGS
+            </span>
+            <div className="my-3">
+              <span className="font-heading text-3xl sm:text-4xl text-black block truncate">
+                ${estimatedSavings.toFixed(5)}
+              </span>
+            </div>
+            <span className="font-mono text-xs text-[#333333] font-medium block">
+              Dollars saved via tier optimization
+            </span>
           </div>
-          <div className="text-2xl font-bold font-mono text-[#3DFF6B]">
-            ${estimatedSavings.toFixed(5)}
-          </div>
-          <span className="text-[11px] text-gray-500 font-mono mt-1 block">
-            Dollars saved from tier optimization
-          </span>
         </div>
 
-        <div className="bg-[#1A1A1A] border border-[#262626] rounded-xl p-5">
-          <div className="flex items-center justify-between text-gray-400 mb-2">
-            <span className="text-xs uppercase font-mono">Cost Reduction</span>
-            <TrendingDown className="w-4 h-4 text-[#3DFF6B]" />
+        {/* Cost Reduction % */}
+        <div className="bg-white border-[3px] border-black brutalist-shadow flex flex-col justify-between overflow-hidden relative">
+          <div className="h-3 w-full bg-[#FF9F1C] border-b-[3px] border-black" />
+          <div className="p-5 flex-1 flex flex-col justify-between">
+            <div className="flex items-center justify-between">
+              <span className="font-mono text-xs uppercase font-bold text-black tracking-wider block">
+                COST REDUCTION %
+              </span>
+              <span className="px-2 py-0.5 bg-[#FF9F1C] text-black font-heading text-[10px] uppercase border-2 border-black brutalist-shadow-chip -rotate-2">
+                SAVINGS
+              </span>
+            </div>
+            <div className="my-3">
+              <span className="font-heading text-3xl sm:text-4xl text-black block">
+                {savingsPct.toFixed(1)}%
+              </span>
+            </div>
+            <span className="font-mono text-xs text-[#333333] font-medium block">
+              Relative expenditure drop
+            </span>
           </div>
-          <div className="text-2xl font-bold font-mono text-[#3DFF6B]">
-            {savingsPct.toFixed(1)}%
-          </div>
-          <span className="text-[11px] text-gray-500 font-mono mt-1 block">
-            Relative expenditure reduction
-          </span>
         </div>
       </div>
 
-      {/* Comparison Chart */}
-      <div className="bg-[#1A1A1A] border border-[#262626] rounded-xl p-5">
-        <h2 className="text-xs uppercase font-mono text-gray-400 mb-4 tracking-wider">
-          Cumulative Spend Comparison (USD)
-        </h2>
-        <div className="h-64 w-full">
+      {/* Comparison Bar Chart */}
+      <div className="bg-white border-[3px] border-black brutalist-shadow p-5 sm:p-6 space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div>
+            <h2 className="font-heading text-xl sm:text-2xl text-black uppercase">
+              CUMULATIVE SPEND COMPARISON (USD)
+            </h2>
+            <div className="h-1 w-24 bg-black mt-1" />
+          </div>
+
+          {savingsPct > 0 && (
+            <div className="px-4 py-2 bg-[#35F28A] text-black font-heading text-sm uppercase border-[3px] border-black brutalist-shadow-chip -rotate-2 inline-block">
+              YOU SAVED {savingsPct.toFixed(1)}%!
+            </div>
+          )}
+        </div>
+
+        <div className="h-80 w-full pt-4">
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={comparisonData} layout="vertical" margin={{ left: 40, right: 40 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#262626" />
-              <XAxis type="number" stroke="#666666" tick={{ fill: "#888888", fontSize: 11 }} />
-              <YAxis dataKey="name" type="category" stroke="#666666" tick={{ fill: "#DDDDDD", fontSize: 12 }} />
-              <Tooltip
-                formatter={(val: any) => [`$${val.toFixed(6)}`, "Cost"]}
-                contentStyle={{ backgroundColor: "#111111", border: "1px solid #333333", fontSize: "12px" }}
+            <BarChart
+              data={comparisonData}
+              layout="vertical"
+              margin={{ top: 20, right: 80, left: 20, bottom: 20 }}
+            >
+              <CartesianGrid stroke="#000000" strokeWidth={1} strokeDasharray="4 4" />
+              <XAxis
+                type="number"
+                stroke="#000000"
+                strokeWidth={3}
+                tick={{ fill: "#000000", fontSize: 12, fontFamily: "Space Mono", fontWeight: "bold" }}
+                tickFormatter={(val) => `$${val}`}
               />
-              <Bar dataKey="cost" radius={[0, 4, 4, 0]}>
+              <YAxis
+                dataKey="name"
+                type="category"
+                stroke="#000000"
+                strokeWidth={3}
+                tick={{ fill: "#000000", fontSize: 13, fontFamily: "Archivo Black" }}
+                width={150}
+              />
+              <Tooltip
+                formatter={(val: any) => [`$${Number(val).toFixed(6)}`, "Cost"]}
+                contentStyle={{
+                  backgroundColor: "#FFFFFF",
+                  border: "3px solid #000000",
+                  boxShadow: "4px 4px 0px #000",
+                  borderRadius: 0,
+                  fontFamily: "Space Mono",
+                  fontWeight: "bold",
+                  color: "#000000",
+                }}
+              />
+              <Bar dataKey="cost" stroke="#000000" strokeWidth={3}>
+                <LabelList
+                  dataKey="label"
+                  position="right"
+                  style={{
+                    fontFamily: "Space Mono",
+                    fontWeight: "bold",
+                    fontSize: 13,
+                    fill: "#000000",
+                  }}
+                />
                 {comparisonData.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={entry.fill} />
                 ))}
               </Bar>
             </BarChart>
           </ResponsiveContainer>
+        </div>
+
+        {/* Legend */}
+        <div className="flex flex-wrap gap-4 pt-2 border-t-[3px] border-black">
+          <div className="flex items-center space-x-2 px-3 py-1 bg-[#35F28A] border-2 border-black font-mono text-xs uppercase font-bold text-black">
+            <span className="w-3 h-3 bg-black inline-block" />
+            <span>RELAY ACTUAL (OPTIMIZED)</span>
+          </div>
+          <div className="flex items-center space-x-2 px-3 py-1 bg-[#B388FF] border-2 border-black font-mono text-xs uppercase font-bold text-black">
+            <span className="w-3 h-3 bg-black inline-block" />
+            <span>ALWAYS LARGE (COUNTERFACTUAL)</span>
+          </div>
         </div>
       </div>
     </div>

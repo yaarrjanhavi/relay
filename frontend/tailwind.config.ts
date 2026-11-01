@@ -9,26 +9,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#000000",
-        surface: "#1A1A1A",
-        surfaceHover: "#222222",
-        border: "#262626",
-        primary: {
-          DEFAULT: "#3DFF6B",
-          dark: "#2ecc55",
-          light: "#64ff8b",
-        },
-        accent: {
-          DEFAULT: "#A855F7",
-          dark: "#9333ea",
-          light: "#c084fc",
-        },
-        muted: "#888888",
-        danger: "#EF4444",
+        background: "#FFE14D", // Pop yellow
+        surface: "#FFFFFF",    // Pure white
+        border: "#000000",
+        primary: "#FF4FA3",   // Brutalist Pink
+        mint: "#35F28A",      // Small tier / savings / good
+        orange: "#FF9F1C",    // Medium tier / warnings / fallback
+        lavender: "#B388FF",  // Large tier / safety / quality
+        danger: "#FF3B30",    // Errors / dead letter / poor
+        dangerText: "#B91C1C",
+        muted: "#333333",
+        focusTint: "#FFF8CC",
       },
       fontFamily: {
-        heading: ["Teko", "sans-serif"],
-        sans: ["Urbanist", "sans-serif"],
+        heading: ["'Archivo Black'", "sans-serif"],
+        mono: ["'Space Mono'", "monospace"],
+      },
+      boxShadow: {
+        card: "8px 8px 0px #000000",
+        btn: "4px 4px 0px #000000",
+        btnHover: "6px 6px 0px #000000",
+        badge: "3px 3px 0px #000000",
+        err: "6px 6px 0px #000000",
       },
     },
   },

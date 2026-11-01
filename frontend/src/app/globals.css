@@ -1,26 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #000000;
-  --surface: #1A1A1A;
-  --border: #262626;
-  --primary: #3DFF6B;
-  --accent: #A855F7;
+  --bg-yellow: #FFE14D;
+  --surface-white: #FFFFFF;
+  --border-black: #000000;
+  --primary-pink: #FF4FA3;
+  --mint: #35F28A;
+  --orange: #FF9F1C;
+  --lavender: #B388FF;
+  --danger-red: #FF3B30;
 }
 
 body {
-  background-color: #000000;
-  color: #F3F4F6;
-  font-family: 'Urbanist', sans-serif;
+  background-color: #FFE14D;
+  color: #000000;
+  font-family: 'Space Mono', monospace;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: 'Teko', sans-serif;
-  letter-spacing: 0.05em;
+  font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
+  color: #000000;
+}
+
+/* Diagonal hatch pattern for disabled states & High Stakes cells */
+.diagonal-hatch {
+  background: repeating-linear-gradient(
+    45deg,
+    #000000,
+    #000000 2px,
+    transparent 0,
+    transparent 8px
+  );
+}
+
+.diagonal-hatch-light {
+  background: repeating-linear-gradient(
+    45deg,
+    #B388FF,
+    #B388FF 4px,
+    #A272F5 4px,
+    #A272F5 8px
+  );
+}
+
+/* Brutalist step-based square spinner (24px black square rotating in 4 steps with mint dot) */
+@keyframes square-step-spin {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(90deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.brutalist-spinner {
+  width: 24px;
+  height: 24px;
+  background-color: #000000;
+  border: 3px solid #000000;
+  position: relative;
+  animation: square-step-spin 1s steps(1) infinite;
+}
+
+.brutalist-spinner::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 6px;
+  height: 6px;
+  background-color: #35F28A;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transform: none !important;
+  }
+}
+
+/* Focus visible styles: 4px black outline, 3px offset, white inner ring */
+:focus-visible {
+  outline: 4px solid #000000 !important;
+  outline-offset: 3px !important;
 }
