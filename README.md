@@ -211,7 +211,7 @@ Availability is paramount. If Redis experiences a crash, network partition, or O
 
 1. Clone the repository and configure your environment:
 ```bash
-git clone https://github.com/your-org/relay.git
+git clone https://github.com/yaarrjanhavi/relay.git
 cd relay
 cp .env.example .env
 # Edit .env and optionally add GEMINI_API_KEY=your_key
