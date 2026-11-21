@@ -1,8 +1,5 @@
 # Relay: A Self-Learning Bayesian LLM Router
 
-> **One-line pitch:** A production-grade FastAPI service that dynamically classifies prompts and routes each request to the cheapest Google Gemini tier that is "good enough", learning online from human thumbs up/down feedback via Thompson Sampling to cut LLM costs by ~70% while maintaining near-Pro quality.
-
----
 
 ## 1. The Problem
 
